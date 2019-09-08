@@ -24,7 +24,7 @@ iris:
       max-open-prepared-statements: 50
       max-pool-prepared-statement-per-connection-size: 20
   ftas:
-    driver-class-name: oracle.jdbc.driver.OracleDriver
+    driverClassName: oracle.jdbc.driver.OracleDriver
     url: jdbc:oracle:thin:@(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = orcl)))
     username: ftas
     password: ftas
