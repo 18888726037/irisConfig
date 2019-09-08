@@ -26,6 +26,6 @@ iris:
   ftas:
     driverClassName: oracle.jdbc.driver.OracleDriver
     url: jdbc:oracle:thin:@(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = orcl)))
-    username: ftas
-    password: ftas
+    username: ftas1
+    password: ftas1
 env: dev---bbb
