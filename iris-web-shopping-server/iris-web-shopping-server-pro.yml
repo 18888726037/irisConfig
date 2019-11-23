@@ -29,3 +29,8 @@ iris:
     url: jdbc:mysql://47.97.191.65:3306/iris?useUnicode=true&characterEncoding=utf8&autoReconnect=true
     username: root
     password: Ywd85653028@
+  test:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.97.191.65:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true
+    username: root
+    password: Ywd85653028@
